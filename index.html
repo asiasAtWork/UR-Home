@@ -4,22 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moon Magic Florist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/a4b3c537be.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <div class="nav-link  dropdown">
-            All Flowers
+    <nav class="navbar">
+        <img src="./assets/moon-magic-logo.svg">
+        <div class="nav-links dark-brown">
+            <div class="nav-link  dropdown">
+                <button class="dropdown-nav-button dark-brown">
+                    All Flowers
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+            </div>
+            <div class="nav-link  dropdown">
+                <button class="dropdown-nav-button dark-brown">
+                    All Plants
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+            </div>
+            <div class="nav-link  dropdown">
+                <button class="dropdown-nav-button dark-brown">
+                    Occasions
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+            </div>
+            <a class="nav-link href=">Gift Baskets</a>
+            <a class="nav-link href=">Subscriptions</a>
+            <a class="nav-link href=">About Us</a>
         </div>
-        <div class="nav-link  dropdown">
-            All Plants
+        <div class="nav-icons dark-brown">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <i class="fa-solid fa-user fa-lg"></i>
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
         </div>
-        <div class="nav-link  dropdown">
-            Occasions
-        </div>
-        <a class="nav-link href=">Gift Baskets</a>
-        <a class="nav-link href=">Subscriptions</a>
-        <a class="nav-link href=">About Us</a>
+        <a href="javascript:void(0);" class="mobile-icon" onclick="navController()">
+            <i class="fa-solid fa-bars"></i>
+        </a>
     </nav>
     <header>
         <div class="landing-banner"></div>
