@@ -50,7 +50,7 @@
 }
 
 .landing-banner {
-    height: 480px;
+    height: 560px;
     background-image: url("./assets/moon-magic-landing-page.jpg");
     background-size: cover;
     background-position: center;
@@ -99,16 +99,110 @@
 }
 
 /*FLOWER OPTIONS SECTION STYLING*/
+.flower-options {
+    position: relative;
+    bottom: 80px;
+}
+
+.flower-options-decor-content {
+    width: fit-content;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
 .flower-options-decor-square {
-    width: 400px;
-    height: 400px;
+    width: 480px;
+    height: 480px;
+    display: inline-block;
     background-size: cover;
     background-image: url("./assets/magic-moon-flower-options-pink-bouquet.jpg");
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.5);
+}
+
+.flower-options-decor-img {
+    position: relative;
+    right: 88px;
+    bottom: 120px;
+}
+
+.flower-options-content {
+    position: relative;
+    top: 120px;
+    right: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.flower-options-content h1 {
+    font-size: 64px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.flower-options-content h3 {
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.flower-options-content button {
+    width: 192px;
+    height: 64px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0F5C6B;
+    background-color: white;
+    border: 2px solid #0F5C6B;
+    outline: none;
+    box-shadow: 0px 2px 8px #000000;
 }
 
 .flower-options-banner {
     width: 100%;
     height: 400px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: url("./assets/magic-moon-flower-options-banner.jpg");
+    position: relative;
+    bottom: 64px;
+    z-index: -1;
+}
+
+.flower-options-image-gallery {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    position: relative;
+    bottom: 240px;
+}
+
+.flower-options-gallery-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-option1 {
+    background-image: url("./assets/moon-magic-flower-gallery1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-option2 {
+    background-image: url("./assets/moon-magic-flower-gallery2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-option3 {
+    background-image: url("./assets/moon-magic-flower-gallery3.jpg");
+    background-size: cover;
+    background-position: center bottom;
 }
