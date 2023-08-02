@@ -24,6 +24,11 @@ h3 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+p {
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .landing-button {
     width: 192px;
     height: 64px;
@@ -277,3 +282,79 @@ h3 {
 }
 
 /*SUPERSTAR SELLER STYLING*/
+.popular-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.popular-items-gallery {
+    display: flex;
+    gap: 120px;
+}
+
+.popular-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.popular-item-img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.popular-item-img1 {
+    background-image: url("./assets/top-seller-option1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.popular-item-img2 {
+    background-image: url("./assets/top-seller-option2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.popular-item-img3 {
+    background-image: url("./assets/top-seller-option3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.popular-item-img4 {
+    background-image: url("./assets/top-seller-option4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.popular-item-img5 {
+    background-image: url("./assets/top-seller-option5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+hr {
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.popular-item-decor-button {
+    display: flex;
+    align-items: center;
+}
+
+.popular-item-decor-left {
+    transform: scaleX(-1);
+}
+
+.popular-item-decor-button button {
+    color: white;
+    background-color: #0F5C6B;
+}
