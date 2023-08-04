@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-size: 14px;
 }
 
@@ -394,4 +395,21 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 48px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial-star {
+    padding: 4px;
+}
+
+.testimonial-name {
+    font-weight: 700;
+    color: #694139;
+    align-self: flex-start;
+}
+
+.testimonial-icons {
+    align-self: flex-end;
 }
