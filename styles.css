@@ -378,5 +378,20 @@ hr {
     bottom: 64px;
     background-image: url("./assets/testimonial-background.jpg");
     background-size: cover;
-    background-position: center bottom;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.testimonial {
+    width: 40%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
 }
