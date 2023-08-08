@@ -413,3 +413,8 @@ hr {
 .testimonial-icons {
     align-self: flex-end;
 }
+
+/*FOOTER STYLING*/
+footer {
+    background-color: #F0F0F0;
+}
