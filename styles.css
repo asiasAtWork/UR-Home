@@ -6,6 +6,12 @@
     font-size: 14px;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
 .dark-brown {
     color: #694139;
 }
@@ -47,10 +53,12 @@ p {
 
 /*NAVIGATION STYLING*/
 .navbar {
+    width: 100%;
     display: flex;
+    padding: 24px 40px;
     justify-content: space-between;
-    padding: 16px 64px;
     box-shadow: 0px 2px 12px;
+    overflow: hidden;
 }
 
 .nav-links {
@@ -419,7 +427,7 @@ p {
 }
 
 /*FOOTER STYLING*/
-footer {
+.footer {
     height: 320px;
     background-color: #F0F0F0;
 }
@@ -429,7 +437,7 @@ footer {
     border: 2px solid black;
 }
 
-footer img {
+.footer img {
     margin-top: 40px;
     margin-left: 40px;
 }
@@ -464,3 +472,13 @@ footer img {
     gap: 16px;
     text-align: center;
 }
+
+/*MEDIA QUERIES*/
+/* When the screen is less than 1400 pixels wide 
+hide the desktop nav links, icons remain. 
+Show the menu icon that will open and close the mobile nav. */
+@media screen and (max-width: 1400px) {
+    .nav-links {
+        display: none;
+    }
+  }

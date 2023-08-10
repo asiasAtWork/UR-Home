@@ -1,0 +1,24 @@
+{
+  "name": "magic-moon-florist",
+  "version": "1.0.0",
+  "description": "Portfolio project for a florist shop website.\r Design made using Figma and intial prototype made using HTML, CSS, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asiaIsOnline/magic-moon-florist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asiaIsOnline/magic-moon-florist/issues"
+  },
+  "homepage": "https://github.com/asiaIsOnline/magic-moon-florist#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
