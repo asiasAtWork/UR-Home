@@ -15,10 +15,16 @@
     gap: 64px;
 }
 
-.navdropdown {
+.navDropdown .dropdownNavButton {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     background-color: white;
     border: none;
     outline: none;
+}
+
+.navicons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
