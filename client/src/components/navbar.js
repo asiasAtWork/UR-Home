@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown, faMagnifyingGlass, faUser, faCartShopping } from '@fortawesome/free-solid-svg-icons'
-import navbarStyles from '../css_modules/Navbar.module.css'
+import navbarStyles from '../css_modules/Navbar.module.css';
 import { ReactComponent as Logo } from '../assets/moon-magic-logo.svg';
 
 const Navbar = () => {
