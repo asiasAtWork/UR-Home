@@ -12,7 +12,6 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Landing />}/>
         </Routes>
       </Router>
       <Landing />
