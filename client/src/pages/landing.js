@@ -15,11 +15,11 @@ const Landing = () => {
                 </div>
             </header>
             <FontAwesomeIcon icon={faCircleQuestion} className={`${landingStyles.helpicon}`} size="2xl"/>
-            <section>
+            <section className={`${landingStyles.floweroptions}`}>
                 <div className={`${landingStyles.floweroptionscontainer}`}>
                     <div className={`${landingStyles.floweroptionsdisplayimg1}`}></div>
                     <div className={`${landingStyles.floweroptionsillustration}`}></div>
-                    <div>
+                    <div className={landingStyles.floweroptionstext}>
                         <h1>Enchanting Options</h1>
                         <h3>The Moon Magic Florists offer a wide array of options.</h3>
                         <button className={`landing-button ${landingStyles.landingbannerbutton}`}>All Flowers</button>

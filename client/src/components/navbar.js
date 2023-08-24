@@ -13,28 +13,28 @@ const Navbar = () => {
             <NavLink to="/landing">
                 <Logo />
             </NavLink>
-            <div className={`dark-brown ${navbarStyles.navlinks}`}>
+            <div className={`${navbarStyles.navlinkcontainer}`}>
                 <div className={navbarStyles.navDropdown}>
-                    <button className={`dark-brown ${navbarStyles.dropdownNavButton}`}>
+                    <button className={`${navbarStyles.dropdownNavButton}`}>
                         All Flowers
                         <FontAwesomeIcon icon={faChevronDown} size="2xs" />
                     </button>
                 </div>
-                <div className={`dark-brown ${navbarStyles.navlink} ${navbarStyles.navDropdown}`}>
-                    <button className={`dark-brown ${navbarStyles.dropdownNavButton}`}>
+                <div className={`${navbarStyles.navlink} ${navbarStyles.navDropdown}`}>
+                    <button className={`${navbarStyles.dropdownNavButton}`}>
                         All Plants
                         <FontAwesomeIcon icon={faChevronDown} size="2xs" />
                     </button>
                 </div>
                 <div className={navbarStyles.navDropdown}>
-                    <button className={`dark-brown ${navbarStyles.dropdownNavButton}`}>
+                    <button className={`${navbarStyles.dropdownNavButton}`}>
                         Occasions
                         <FontAwesomeIcon icon={faChevronDown} size="2xs" />
                     </button>
                 </div>
-                <NavLink to="/products">Gift Baskets</NavLink>
-                <NavLink to="/subscriptions">Subscriptions</NavLink>
-                <NavLink to="/about-us">About Us</NavLink>
+                <NavLink className={navbarStyles.navlink} to="/products">Gift Baskets</NavLink>
+                <NavLink className={navbarStyles.navlink} to="/subscriptions">Subscriptions</NavLink>
+                <NavLink className={navbarStyles.navlink} to="/about-us">About Us</NavLink>
             </div>
             <div className={`dark-brown ${navbarStyles.navicons}`}>
                 <FontAwesomeIcon icon={faMagnifyingGlass}/>
