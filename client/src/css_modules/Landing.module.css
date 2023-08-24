@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 40px;
+    gap: 32px;
     align-items: center;
     text-align: center;
     position: absolute;
@@ -86,12 +86,6 @@
     margin-bottom: 48px;
 }
 
-.floweroptionstext button {
-    color: #0F5C6B;
-    background-color: white;
-    border: 2px solid #0F5C6B;
-}
-
 .floweroptionsbanner {
     width: 100%;
     height: 400px;
@@ -132,12 +126,15 @@
     background-image: url(../assets/moon-magic-flower-gallery3.jpg);
 }
 
-/*BASKETS SECTION CONTENT*/
+/*BASKETS & TREATS SECTION CONTENT*/
 
-.baskets {
+.baskets, .treats {
     width: 100vw;
     display: flex;
     justify-content: center;
+}
+
+.baskets {
     margin-top: 240px;
 }
 
@@ -160,10 +157,35 @@
     bottom: 96px;
 }
 
-.basketsimg {
+.basketsimg, .treatsimg {
     width: 60%;
-    height: 720px;
-    background-image: url(../assets/basket-decor-img.png);
+    height: 700px;
     background-position: center;
     background-size: cover;
+}
+
+.basketsimg {
+    background-image: url(../assets/basket-decor-img.png);
+}   
+
+/*TREATS EXCLUSIVE SECTION CONTENT*/
+
+.treats {
+    margin-top: 120px;
+}
+
+.treatsimg {
+    background-image: url(../assets/charming-treats-img.jpg);
+}  
+
+.treatscontent {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #0f5c6b;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
 }

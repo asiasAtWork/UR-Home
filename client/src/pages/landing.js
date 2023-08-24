@@ -11,7 +11,7 @@ const Landing = () => {
                 <div className={`${landingStyles.landingbannercontent}`}>
                     <h1>Send Some Magic</h1>
                     <h2 className='font-light'>Show a loved one you care today!</h2>
-                    <button className={`landing-button ${landingStyles.landingbannerbutton}`}>Shop Now</button>
+                    <button className={`landing-button light-text-button`}>Shop Now</button>
                 </div>
             </header>
             <FontAwesomeIcon icon={faCircleQuestion} className={`${landingStyles.helpicon}`} size="2xl"/>
@@ -22,7 +22,7 @@ const Landing = () => {
                     <div className={landingStyles.floweroptionstext}>
                         <h1>Enchanting Options</h1>
                         <h3>The Moon Magic Florists offer a wide array of options.</h3>
-                        <button className={`landing-button ${landingStyles.landingbannerbutton}`}>All Flowers</button>
+                        <button className={`landing-button dark-text-button`}>All Flowers</button>
                     </div>
                 </div>
                 <div className={`${landingStyles.floweroptionsbanner}`}></div>
@@ -37,12 +37,17 @@ const Landing = () => {
                     <div className={landingStyles.basketsillustration}></div>
                     <h1>Spellbinding <br/> Baskets</h1>
                     <h3>Flowers, and sweets, and wine, <br/> oh my!</h3>
-                    <button button className={`landing-button ${landingStyles.landingbannerbutton}`}>Shop Gift Baskets</button>
+                    <button button className={`landing-button light-text-button`}>Shop Gift Baskets</button>
                 </div>
                 <div className={landingStyles.basketsimg}></div>
             </section>
-            <section>
-                
+            <section className={landingStyles.treats}>
+                <div className={landingStyles.treatsimg}></div>
+                <div className={landingStyles.treatscontent}>
+                    <h1>Charming Treats</h1>
+                    <h3>Moon Magic Florist offers <br/> subscription services as well!</h3>
+                    <button button className={`landing-button dark-text-button`}>Learn More</button>
+                </div>
             </section>
         </div>
     )
