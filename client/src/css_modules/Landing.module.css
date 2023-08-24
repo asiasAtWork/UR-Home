@@ -131,3 +131,39 @@
 .floweroptionsgalleryimg3 {
     background-image: url(../assets/moon-magic-flower-gallery3.jpg);
 }
+
+/*BASKETS SECTION CONTENT*/
+
+.baskets {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 240px;
+}
+
+.basketscontent {
+    width: 30%;
+    background-color: #f4d5ca;
+    text-align: center;
+}
+
+.basketscontent h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.basketsillustration {
+    width: 240px;
+    height: 200px;
+    background-image: url(../assets/basket-flower-decor.png);
+    position: relative;
+    bottom: 96px;
+}
+
+.basketsimg {
+    width: 60%;
+    height: 720px;
+    background-image: url(../assets/basket-decor-img.png);
+    background-position: center;
+    background-size: cover;
+}

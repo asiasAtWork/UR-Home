@@ -32,6 +32,18 @@ const Landing = () => {
                     <div className={`${landingStyles.floweroptionsgalleryimg} ${landingStyles.floweroptionsgalleryimg3}`}></div>
                 </div>
             </section>
+            <section className={landingStyles.baskets}>
+                <div className={landingStyles.basketscontent}>
+                    <div className={landingStyles.basketsillustration}></div>
+                    <h1>Spellbinding <br/> Baskets</h1>
+                    <h3>Flowers, and sweets, and wine, <br/> oh my!</h3>
+                    <button button className={`landing-button ${landingStyles.landingbannerbutton}`}>Shop Gift Baskets</button>
+                </div>
+                <div className={landingStyles.basketsimg}></div>
+            </section>
+            <section>
+                
+            </section>
         </div>
     )
 }
