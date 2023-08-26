@@ -49,6 +49,43 @@ const Landing = () => {
                     <button button className={`landing-button dark-text-button`}>Learn More</button>
                 </div>
             </section>
+            <section className={landingStyles.popularitems}>
+                <h1>Our Supernatural Sellers</h1>
+                <hr className={landingStyles.popularitemsdivider}/>
+                <div className={landingStyles.popularitemgallery}>
+                    <div className={landingStyles.productitemcontainer}>
+                        <div className={`${landingStyles.productitemimg} ${landingStyles.productitem1}`}></div>
+                        <h3 className={landingStyles.productitemtitle}>Spring Fairy</h3>
+                        <p className={landingStyles.productprice}>$24.99</p>
+                    </div>
+                    <div className={landingStyles.productitemcontainer}>
+                        <div className={`${landingStyles.productitemimg} ${landingStyles.productitem2}`}></div>
+                        <h3 className={landingStyles.productitemtitle}>Sun Drop</h3>
+                        <p className={landingStyles.productprice}>$34.99</p>
+                    </div>
+                    <div className={landingStyles.productitemcontainer}>
+                        <div className={`${landingStyles.productitemimg} ${landingStyles.productitem3}`}></div>
+                        <h3 className={landingStyles.productitemtitle}>Desert Dreamer</h3>
+                        <p className={landingStyles.productprice}>$34.99</p>
+                    </div>
+                    <div className={landingStyles.productitemcontainer}>
+                        <div className={`${landingStyles.productitemimg} ${landingStyles.productitem4}`}></div>
+                        <h3 className={landingStyles.productitemtitle}>Poppy Puff</h3>
+                        <p className={landingStyles.productprice}>$34.99</p>
+                    </div>
+                    <div className={landingStyles.productitemcontainer}>
+                        <div className={`${landingStyles.productitemimg} ${landingStyles.productitem5}`}></div>
+                        <h3 className={landingStyles.productitemtitle}>Sun Star</h3>
+                        <p className={landingStyles.productprice}>$39.99</p>
+                    </div>
+                </div>
+                <hr className={landingStyles.popularitemsdivider}/>
+                <div>
+                    <div></div>
+                    <button>View Top Sellers</button>
+                    <div></div>
+                </div>
+            </section>
         </div>
     )
 }
