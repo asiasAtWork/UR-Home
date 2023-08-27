@@ -86,6 +86,25 @@ const Landing = () => {
                     <div></div>
                 </div>
             </section>
+            <section className={landingStyles.testimonials}>
+                <div>
+                    <h1>Testimonial</h1>
+                    <div className={landingStyles.testimonialdecor}></div>
+                </div>
+                <div class={landingStyles.testimonial}>
+                    <div className={landingStyles.testimonialrating}></div>
+                    <div className={landingStyles.testimonialdescription}></div>
+                    <div className={landingStyles.testimonialauthor}></div>
+                    <div className={landingStyles.testimonialsite}></div>
+                </div> 
+                <div class={landingStyles.testimonial}>
+                    <div className={landingStyles.testimonialrating}></div>
+                    <div className={landingStyles.testimonialdescription}></div>
+                    <div className={landingStyles.testimonialauthor}></div>
+                    <div className={landingStyles.testimonialsite}></div>
+                </div> 
+                <div></div>
+            </section>
         </div>
     )
 }

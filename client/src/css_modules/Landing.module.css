@@ -189,3 +189,10 @@
     gap: 40px;
     align-items: center;
 }
+
+/*POPULAR ITEMS SECTION CONTENT*/
+
+/*TESTIMONIAL SECTION CONTENT*/
+.testimonialdecor {
+    background-image: url(../assets/basket-flower-decor.png);
+}
