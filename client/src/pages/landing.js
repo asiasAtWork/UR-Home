@@ -37,7 +37,7 @@ const Landing = () => {
                     <div className={landingStyles.basketsillustration}></div>
                     <h1>Spellbinding <br/> Baskets</h1>
                     <h3>Flowers, and sweets, and wine, <br/> oh my!</h3>
-                    <button button className={`landing-button light-text-button`}>Shop Gift Baskets</button>
+                    <button className={`landing-button light-text-button`}>Shop Gift Baskets</button>
                 </div>
                 <div className={landingStyles.basketsimg}></div>
             </section>
@@ -55,35 +55,35 @@ const Landing = () => {
                 <div className={landingStyles.popularitemgallery}>
                     <div className={landingStyles.productitemcontainer}>
                         <div className={`${landingStyles.productitemimg} ${landingStyles.productitem1}`}></div>
-                        <h3 className={landingStyles.productitemtitle}>Spring Fairy</h3>
+                        <p className={landingStyles.productitemtitle}>Spring Fairy</p>
                         <p className={landingStyles.productprice}>$24.99</p>
                     </div>
                     <div className={landingStyles.productitemcontainer}>
                         <div className={`${landingStyles.productitemimg} ${landingStyles.productitem2}`}></div>
-                        <h3 className={landingStyles.productitemtitle}>Sun Drop</h3>
+                        <p className={landingStyles.productitemtitle}>Sun Drop</p>
                         <p className={landingStyles.productprice}>$34.99</p>
                     </div>
                     <div className={landingStyles.productitemcontainer}>
                         <div className={`${landingStyles.productitemimg} ${landingStyles.productitem3}`}></div>
-                        <h3 className={landingStyles.productitemtitle}>Desert Dreamer</h3>
+                        <p className={landingStyles.productitemtitle}>Desert Dreamer</p>
                         <p className={landingStyles.productprice}>$34.99</p>
                     </div>
                     <div className={landingStyles.productitemcontainer}>
                         <div className={`${landingStyles.productitemimg} ${landingStyles.productitem4}`}></div>
-                        <h3 className={landingStyles.productitemtitle}>Poppy Puff</h3>
+                        <p className={landingStyles.productitemtitle}>Poppy Puff</p>
                         <p className={landingStyles.productprice}>$34.99</p>
                     </div>
                     <div className={landingStyles.productitemcontainer}>
                         <div className={`${landingStyles.productitemimg} ${landingStyles.productitem5}`}></div>
-                        <h3 className={landingStyles.productitemtitle}>Sun Star</h3>
+                        <p className={landingStyles.productitemtitle}>Sun Star</p>
                         <p className={landingStyles.productprice}>$39.99</p>
                     </div>
                 </div>
                 <hr className={landingStyles.popularitemsdivider}/>
-                <div>
-                    <div></div>
-                    <button>View Top Sellers</button>
-                    <div></div>
+                <div class={landingStyles.popularitemsbuttoncontainer}>
+                    <div className={landingStyles.popularitemsdecorR}></div>
+                    <button className={`landing-button light-text-button`}>View Top Sellers</button>
+                    <div className={landingStyles.popularitemsdecorL}></div>
                 </div>
             </section>
             <section className={landingStyles.testimonials}>

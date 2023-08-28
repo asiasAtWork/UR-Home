@@ -158,7 +158,7 @@
 }
 
 .basketsimg, .treatsimg {
-    width: 60%;
+    width: 50%;
     height: 700px;
     background-position: center;
     background-size: cover;
@@ -191,6 +191,88 @@
 }
 
 /*POPULAR ITEMS SECTION CONTENT*/
+.popularitems {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.popularitemsdivider {
+    width: 1200px;
+    border: 1px solid #222526;
+}
+
+.popularitemgallery {
+    display: flex;
+    gap: 64px;
+}
+
+.productitemcontainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.productitemimg {
+    width: 180px;
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #222526;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.productitem1 {
+    background-image: url(../assets/top-seller-option1.jpg);
+}
+
+.productitem2 {
+    background-image: url(../assets/top-seller-option2.jpg);
+}
+
+.productitem3 {
+    background-image: url(../assets/top-seller-option3.jpg);
+}
+
+.productitem4 {
+    background-image: url(../assets/top-seller-option4.jpg);
+}
+
+.productitem5 {
+    background-image: url(../assets/top-seller-option5.jpg);
+}
+
+.productitemtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.popularitemsbuttoncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularitemsdecorR {
+    width: 132px;
+    height: 164px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/top-seller-flower-decor.png);
+    transform: scaleX(-1);
+}
+
+.popularitemsdecorL {
+    width: 132px;
+    height: 164px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/top-seller-flower-decor.png);
+}
 
 /*TESTIMONIAL SECTION CONTENT*/
 .testimonialdecor {
