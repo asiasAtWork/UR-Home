@@ -275,6 +275,53 @@
 }
 
 /*TESTIMONIAL SECTION CONTENT*/
+.testimonials {
+    margin-top: 64px;
+    position: relative;
+}
+
+.testimonialheader {
+    display: flex;
+    align-items: center;
+}
+
 .testimonialdecor {
+    width: 200px;
+    height: 164px;
+    background-position: center;
+    background-size: cover;
+    margin-left: -24px;
     background-image: url(../assets/basket-flower-decor.png);
+    transform: scaleX(-1);
+}
+
+.testimonialcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonial {
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    background-color: white;
+}
+
+.ratingicon {
+    color: #C58071;
+}
+
+.testimonialbanner {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/testimonial-background.jpg);
+    position: absolute;
+    top: 120px;
+    z-index: -1;
 }

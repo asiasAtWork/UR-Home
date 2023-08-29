@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleQuestion } from '@fortawesome/free-solid-svg-icons'
+import { faCircleQuestion, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faYelp, faGoogle } from '@fortawesome/free-brands-svg-icons'
 import landingStyles from '../css_modules/Landing.module.css';
 
 const Landing = () => {
@@ -87,23 +88,53 @@ const Landing = () => {
                 </div>
             </section>
             <section className={landingStyles.testimonials}>
-                <div>
+                <div className={landingStyles.testimonialheader}>
                     <h1>Testimonial</h1>
                     <div className={landingStyles.testimonialdecor}></div>
                 </div>
-                <div class={landingStyles.testimonial}>
-                    <div className={landingStyles.testimonialrating}></div>
-                    <div className={landingStyles.testimonialdescription}></div>
-                    <div className={landingStyles.testimonialauthor}></div>
-                    <div className={landingStyles.testimonialsite}></div>
-                </div> 
-                <div class={landingStyles.testimonial}>
-                    <div className={landingStyles.testimonialrating}></div>
-                    <div className={landingStyles.testimonialdescription}></div>
-                    <div className={landingStyles.testimonialauthor}></div>
-                    <div className={landingStyles.testimonialsite}></div>
-                </div> 
-                <div></div>
+                <div className={landingStyles.testimonialcontainer}>
+                    <div className={landingStyles.testimonial}>
+                        <div className={landingStyles.testimonialrating}>
+                            <FontAwesomeIcon icon={faStar} className={`${landingStyles.ratingicon}`} size="2xl"/>
+                            <FontAwesomeIcon icon={faStar} className={`${landingStyles.ratingicon}`} size="2xl"/>
+                            <FontAwesomeIcon icon={faStar} className={`${landingStyles.ratingicon}`} size="2xl"/>
+                            <FontAwesomeIcon icon={faStar} className={`${landingStyles.ratingicon}`} size="2xl"/>
+                            <FontAwesomeIcon icon={faStar} className={`${landingStyles.ratingicon}`} size="2xl"/>
+                        </div>
+                        <div className={landingStyles.testimonialdescription}>
+                            <p>“The Sun Drop was absolutely beautiful! 
+                            My girlfriend loved it and it arrived right on time 
+                            for our anniversary! Will be buying again!” </p>
+                        </div>
+                        <div className={landingStyles.testimonialauthor}></div>
+                            <p>- Mark L.</p>
+                        <div className={landingStyles.testimonialsite}>
+                            <FontAwesomeIcon icon={faYelp} size="2xl"/>
+                        </div>
+                    </div> 
+                    <div className={landingStyles.testimonial}>
+                    <div className={landingStyles.testimonialrating}>
+                        <FontAwesomeIcon icon={faStar} className={`${landingStyles.ratingicon}`} size="2xl"/>
+                        <FontAwesomeIcon icon={faStar} className={`${landingStyles.ratingicon}`} size="2xl"/>
+                        <FontAwesomeIcon icon={faStar} className={`${landingStyles.ratingicon}`} size="2xl"/>
+                        <FontAwesomeIcon icon={faStar} className={`${landingStyles.ratingicon}`} size="2xl"/>
+                        <FontAwesomeIcon icon={faStar} className={`${landingStyles.ratingicon}`} size="2xl"/>
+                    </div>
+                    <div className={landingStyles.testimonialdescription}>
+                        <p>
+                        "If you’re going to buy a bouquet then Poppy Puff 
+                        is one of the best! It’s so beautiful!"
+                        </p>
+                    </div>
+                    <div className={landingStyles.testimonialauthor}>
+                        <p>- Lorie B.</p>
+                    </div>
+                    <div className={landingStyles.testimonialsite}>
+                        <FontAwesomeIcon icon={faGoogle} size="2xl"/>
+                    </div>
+                    </div> 
+                </div>
+                <div class={landingStyles.testimonialbanner}></div>
             </section>
         </div>
     )
