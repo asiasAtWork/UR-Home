@@ -89,7 +89,7 @@ const Landing = () => {
             </section>
             <section className={landingStyles.testimonials}>
                 <div className={landingStyles.testimonialheader}>
-                    <h1>Testimonial</h1>
+                    <h1>Testimonials</h1>
                     <div className={landingStyles.testimonialdecor}></div>
                 </div>
                 <div className={landingStyles.testimonialcontainer}>
@@ -106,8 +106,9 @@ const Landing = () => {
                             My girlfriend loved it and it arrived right on time 
                             for our anniversary! Will be buying again!” </p>
                         </div>
-                        <div className={landingStyles.testimonialauthor}></div>
-                            <p>- Mark L.</p>
+                        <div className={landingStyles.testimonialauthor}>
+                            <p>- Mark L.</p>                            
+                        </div>
                         <div className={landingStyles.testimonialsite}>
                             <FontAwesomeIcon icon={faYelp} size="2xl"/>
                         </div>

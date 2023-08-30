@@ -276,13 +276,14 @@
 
 /*TESTIMONIAL SECTION CONTENT*/
 .testimonials {
-    margin-top: 64px;
+    margin-top: 24px;
     position: relative;
 }
 
 .testimonialheader {
     display: flex;
     align-items: center;
+    margin-left: 240px;
 }
 
 .testimonialdecor {
@@ -301,7 +302,7 @@
 }
 
 .testimonial {
-    width: 600px;
+    width: 550px;
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -309,10 +310,30 @@
     gap: 12px;
     justify-content: center;
     background-color: white;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.5);
 }
 
 .ratingicon {
     color: #C58071;
+}
+
+.testimonialauthor {
+    align-self: flex-start;
+    margin-left: 48px;
+}
+
+.testimonialauthor p {
+    color: #694139;
+    font-weight: bold;
+}
+
+.testimonialdescription {
+    margin: 8px 48px;
+}
+
+.testimonialsite {
+    align-self: flex-end;
+    margin-right: 48px;
 }
 
 .testimonialbanner {
