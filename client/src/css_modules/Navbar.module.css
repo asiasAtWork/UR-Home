@@ -10,20 +10,22 @@
 .navlinkcontainer {
     display: flex;
     align-items: center;
-    font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     gap: 64px;
 }
 
-.navDropdown .dropdownNavButton {
+.navDropdown {
     color: #694139;
     font-size: 0.875rem;
-    font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     background-color: white;
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.dropdownicon {
+    margin-left: 8px;
 }
 
 .navlink {

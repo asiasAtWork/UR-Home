@@ -15,22 +15,16 @@ const Navbar = () => {
             </NavLink>
             <div className={`${navbarStyles.navlinkcontainer}`}>
                 <div className={navbarStyles.navDropdown}>
-                    <button className={`${navbarStyles.dropdownNavButton}`}>
-                        All Flowers
-                        <FontAwesomeIcon icon={faChevronDown} size="2xs" />
-                    </button>
-                </div>
-                <div className={`${navbarStyles.navlink} ${navbarStyles.navDropdown}`}>
-                    <button className={`${navbarStyles.dropdownNavButton}`}>
-                        All Plants
-                        <FontAwesomeIcon icon={faChevronDown} size="2xs" />
-                    </button>
+                    All Flowers
+                    <FontAwesomeIcon className={`${navbarStyles.dropdownicon}`} icon={faChevronDown} size="2xs" />
                 </div>
                 <div className={navbarStyles.navDropdown}>
-                    <button className={`${navbarStyles.dropdownNavButton}`}>
-                        Occasions
-                        <FontAwesomeIcon icon={faChevronDown} size="2xs" />
-                    </button>
+                    All Plants
+                    <FontAwesomeIcon className={`${navbarStyles.dropdownicon}`} icon={faChevronDown} size="2xs" />
+                </div>
+                <div className={navbarStyles.navDropdown}>
+                    Occasions
+                    <FontAwesomeIcon className={`${navbarStyles.dropdownicon}`} icon={faChevronDown} size="2xs" />
                 </div>
                 <NavLink className={navbarStyles.navlink} to="/products">Gift Baskets</NavLink>
                 <NavLink className={navbarStyles.navlink} to="/subscriptions">Subscriptions</NavLink>

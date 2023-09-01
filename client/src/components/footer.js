@@ -30,6 +30,7 @@ const Footer = () => {
                         <p className={`font-light`}>FAQs</p>
                     </div>
                 </div>
+                <p className={`font-light`}>Copyright © 2023 Moon Magic Florist | Designed and Developed by Asia T (asiaIsOnline)</p>
             </div>
         </footer>
     )

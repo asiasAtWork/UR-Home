@@ -38,6 +38,7 @@
 .helpicon {
     color: #0f536b;
     position: fixed;
+    top: 80%;
     right: 2.5%;
     cursor: pointer;
 }
