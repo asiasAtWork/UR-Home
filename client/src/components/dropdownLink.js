@@ -1,7 +1,7 @@
 import React from 'react';
-import dropdownMenuStyles from '../css_modules/dropdownMenu.module.css';
+import dropdownLinkStyles from '../css_modules/dropdownLink.module.css';
 
-const DropdownMenu = () => {
+const DropdownLink = () => {
     return (
         <div>
             <div>Shop All Flowers</div>
@@ -12,4 +12,4 @@ const DropdownMenu = () => {
     )
 }
 
-export default DropdownMenu;
+export default DropdownLink;

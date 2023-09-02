@@ -6,8 +6,6 @@ import navbarStyles from '../css_modules/Navbar.module.css';
 import { ReactComponent as Logo } from '../assets/moon-magic-logo.svg';
 
 const Navbar = () => {
-    const [isOpen, setOpen] = useState(false);
-
     return (
         <nav className={`${navbarStyles.navbar}`}>
             <NavLink to="/landing">
