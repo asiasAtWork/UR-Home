@@ -1,6 +1,7 @@
 # Magic Moon Florist
 Portfolio project for a florist shop website.
-Design made using Figma and intial prototype was made using HTML, CSS, and vanilla JavaScript. The project is being expanded using the MERN stack. 
+Design made using Figma and intial prototype was made using HTML, CSS, and vanilla JavaScript. 
+The project is being expanded using the MERN stack. 
 
 ## Available Scripts
 
